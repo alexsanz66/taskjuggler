@@ -3,6 +3,8 @@
  * project planification using TaskJuggler in the "Proyecto Software" course.
  * It is based on the Tutorial project offered by TaskJuggler and maintains 
  * some elements of it
+ * La fecha, linea 23 now fecha
+ *linea 47 
  */
 
 project pSix "Web Game"  2023-05-04 +2.5m {
@@ -46,6 +48,7 @@ account cost "Project Cost" {
   account manag "Management"
   account wFront "Web Front-End"
   account back "Back-End"
+  #añadir coste para el frontend movil
 }
 account rev "Payments"
 # The Profit&Loss analysis should be rev - cost accounts.
@@ -67,7 +70,7 @@ resource dev2 "Samantha Müller" {
 resource dev3 "Peter Green" {
   email "kkk@unizar.es"
 }
-
+#nuevo resource que son yo, ponerme workinghours
 # Now we specify the work packages. The whole project is described as
 # a task that contains subtasks. These subtasks are then broken down
 # into smaller tasks and so on. The innermost tasks describe the real
@@ -158,9 +161,10 @@ task WMGame "Web & Mobile Game" {
       }
       depends WMGame.twebF
       depends WMGame.tback
+      #que depende del cloud
   }
 
-    
+  # nueva task...
   task deliveries "Milestones" {
 
     # Some milestones have customer payments associated with them. We
