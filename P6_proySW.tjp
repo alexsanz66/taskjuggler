@@ -3,8 +3,6 @@
  * project planification using TaskJuggler in the "Proyecto Software" course.
  * It is based on the Tutorial project offered by TaskJuggler and maintains 
  * some elements of it
- * La fecha, linea 23 now fecha
- *linea 47 
  */
 
 project pSix "Web Game"  2023-05-04 +2.5m {
@@ -21,7 +19,7 @@ project pSix "Web Game"  2023-05-04 +2.5m {
   # the project reports. If not specified, the current day will be
   # used, but this will likely be outside of the project range, so it
   # can't be seen in the reports.
-  now 2023-04-15-13:00
+  now 2023-05-04-13:00
   # The currency for all money values is the US Dollar.
   currency "EUR"
 
